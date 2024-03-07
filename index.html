@@ -20,23 +20,8 @@
 
 <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
 	
-	<div id="cssload-contain">
-		<div class="cssload-wrap" id="cssload-wrap1">
-			<div class="cssload-ball" id="cssload-ball1"></div>
-		</div>
-	
-		<div class="cssload-wrap" id="cssload-wrap2">
-			<div class="cssload-ball" id="cssload-ball2"></div>
-		</div>
-		
-		<div class="cssload-wrap" id="cssload-wrap3">
-			<div class="cssload-ball" id="cssload-ball3"></div>
-		</div>
-		
-		<div class="cssload-wrap" id="cssload-wrap4">
-			<div class="cssload-ball" id="cssload-ball4"></div>
-		</div>
-	
+	<div class="preloader">
+		<div class="lds-ripple"><div></div><div></div></div>
 	</div>
 	
 	<nav class="navbar custom-navbar" role="navigation">
@@ -410,68 +395,133 @@
 					</div>
 					
 					  
-					<div class="iso-section wow fadeIn" data-wow-delay="0.6s">
+					<div class="iso-section wow fadeIn smoothScroll" data-wow-delay="0.6s">
 
-						<div class="iso-box-section">
+						<div class="iso-box-section smoothScroll">
 							
-							<div class="iso-box-wrapper col2-iso-box ">
+							<div class="iso-box-wrapper col-4 -iso-box col-md-6 smoothScroll">
 								
-								<div class="iso-box-wrapper col4-iso-box">
+								<div class="iso-box 3D_model  col-md-6 text-center smoothScroll">		
+									<div class="flexslider">
+										<div id="slider1" class="slideshow">
+											<div class="slide">
+												  <img src="images/Achitect/1-min.jpg" alt="Image 1" onclick="openModal(1)" class="hover-shadow">
+												  
+											</div>
+											<div class="slide">
+												  <img src="images/Achitect/2-min.jpg" alt="Image 2" onclick="openModal(1)" class="hover-shadow">
+												  
+											</div>
+											<div class="slide">
+												  <img src="images/Achitect/3-min.jpg" alt="Image 3" onclick="openModal(1)" class="hover-shadow">
+											
+											</div>
+											<div class="slide">
+												<img src="images/Achitect/4-min.jpg" alt="Image 4" onclick="openModal(1)" class="hover-shadow">
+												
+											</div>
+											<div class="slide">
+												<img src="images/Achitect/5-min.jpg" alt="Image 5" onclick="openModal(1)" class="hover-shadow">
+											</div>
+											
+										</div>
+										
+										<!-- The Modal/Lightbox -->
+
+										<div id="myModal1" class="modal">
+											<span class="close cursor" onclick="closeModal(1)">&times;</span>
+											<div class="modal-content">
+										
+												<div class="mySlides">
+													<div class="numbertext">1 / 4</div>
+													<img src="images/Achitect/1-min.jpg" style="width:100%" >
+												</div>
+											
+												<div class="mySlides">
+													<div class="numbertext">2 / 4</div>
+													<img src="images/Achitect/2-min.jpg" style="width:100%">
+												</div>
+											
+												<div class="mySlides">
+													<div class="numbertext">3 / 4</div>
+													<img src="images/Achitect/3-min.jpg" style="width:100%">
+												</div>
+											
+												<div class="mySlides">
+													<div class="numbertext">4 / 4</div>
+													<img src="images/Achitect/4-min.jpg" style="width:100%">
+												</div>
+											
+												<!-- Next/previous controls -->
+												<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+												<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+											
+												<!-- Caption text -->
+												<div class="caption-container">
+													<p id="caption">Vhiyasi Architect</p>
+												</div>
+											</div>
+										</div>
+
+									</div>											
+										
+								</div>
 								
-									<div class="iso-box 3D_model  col-md-6 text-center">		
+								
+								<div class="iso-box 3D_model  col-md-6 smoothScroll">
+									<div class="portfolio-thumb">
 										<div class="flexslider">
-											<div id="slider1" class="slideshow">
+											<div id="slider2" class="slideshow">
 												<div class="slide">
-												  	<img src="images/Achitect/1-min.jpg" alt="Image 1" onclick="openModal(1)" class="hover-shadow">
-												  	
+													  <img src="images/Achitect/BAB_1 - Photo1-min.jpg" alt="Image 1" onclick="openModal(2)" class="hover-shadow">
+													  
 												</div>
 												<div class="slide">
-												  	<img src="images/Achitect/2-min.jpg" alt="Image 2" onclick="openModal(1)" class="hover-shadow">
-												  	
+													  <img src="images/Achitect/BAB_2 - Photo1-min.jpg" alt="Image 2" onclick="openModal(2)" class="hover-shadow">
+													  
 												</div>
 												<div class="slide">
-												  	<img src="images/Achitect/3-min.jpg" alt="Image 3" onclick="openModal(1)" class="hover-shadow">
+													  <img src="images/Achitect/BAB_3 - Photo1-min.jpg" alt="Image 3" onclick="openModal(2)" class="hover-shadow">
 												
 												</div>
 												<div class="slide">
-													<img src="images/Achitect/4-min.jpg" alt="Image 4" onclick="openModal(1)" class="hover-shadow">
+													<img src="images/Achitect/BAB_4 - Photo1-min.jpg" alt="Image 4" onclick="openModal(2)" class="hover-shadow">
 													
 												</div>
 												<div class="slide">
-													<img src="images/Achitect/5-min.jpg" alt="Image 5" onclick="openModal(1)" class="hover-shadow">
+													<img src="images/Achitect/BAB_5 - Photo1-min.jpg" alt="Image 5" onclick="openModal(2)" class="hover-shadow">
 												</div>
 												
 											</div>
-											
 											<!-- The Modal/Lightbox -->
 
-											<div id="myModal1" class="modal">
-												<span class="close cursor" onclick="closeModal(1)">&times;</span>
+											<div id="myModal2" class="modal">
+												<span class="close cursor" onclick="closeModal(2)">&times;</span>
 												<div class="modal-content">
 											
-													<div class="mySlides">
+													<div class="mySlides2">
 														<div class="numbertext">1 / 4</div>
-														<img src="images/Achitect/1-min.jpg" style="width:100%" >
+														<img src="images/Achitect/BAB_1 - Photo1-min.jpg" style="width:100%">
 													</div>
 												
-													<div class="mySlides">
+													<div class="mySlides2">
 														<div class="numbertext">2 / 4</div>
-														<img src="images/Achitect/2-min.jpg" style="width:100%">
+														<img src="images/Achitect/BAB_2 - Photo1-min.jpg" style="width:100%">
 													</div>
 												
-													<div class="mySlides">
+													<div class="mySlides2">
 														<div class="numbertext">3 / 4</div>
-														<img src="images/Achitect/3-min.jpg" style="width:100%">
+														<img src="images/Achitect/BAB_3 - Photo1-min.jpg" style="width:100%">
 													</div>
 												
-													<div class="mySlides">
+													<div class="mySlides2">
 														<div class="numbertext">4 / 4</div>
-														<img src="images/Achitect/4-min.jpg" style="width:100%">
+														<img src="images/Achitect/BAB_4 - Photo1-min.jpg" style="width:100%">
 													</div>
 												
 													<!-- Next/previous controls -->
-													<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-													<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+													<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+													<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
 												
 													<!-- Caption text -->
 													<div class="caption-container">
@@ -479,715 +529,648 @@
 													</div>
 												</div>
 											</div>
-
-										</div>											
 											
+										</div>
 									</div>
-									
-									
-									<div class="iso-box 3D_model  col-md-6">
-										<div class="portfolio-thumb">
-											<div class="flexslider">
-												<div id="slider2" class="slideshow">
-													<div class="slide">
-														  <img src="images/Achitect/BAB_1 - Photo1-min.jpg" alt="Image 1" onclick="openModal(2)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/BAB_2 - Photo1-min.jpg" alt="Image 2" onclick="openModal(2)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/BAB_3 - Photo1-min.jpg" alt="Image 3" onclick="openModal(2)" class="hover-shadow">
-													
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/BAB_4 - Photo1-min.jpg" alt="Image 4" onclick="openModal(2)" class="hover-shadow">
-														
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/BAB_5 - Photo1-min.jpg" alt="Image 5" onclick="openModal(2)" class="hover-shadow">
-													</div>
+								</div>
+								<div class="iso-box 3D_model  col-md-6 smoothScroll">
+									<div class="portfolio-thumb">
+										<div class="flexslider">
+											<div id="slider3" class="slideshow">
+												<div class="slide">
+													  <img src="images/Achitect/BASIL_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(3)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/BASIL_3 - Photo-min.jpg" alt="Image 2" onclick="openModal(3)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/BASIL_10 - Photo-min.jpg" alt="Image 3" onclick="openModal(3)" class="hover-shadow">
+												
+												</div>
+												<div class="slide">
+													<img src="images/Achitect/BASIL_36 - Photo-min.jpg" alt="Image 4" onclick="openModal(3)" class="hover-shadow">
 													
 												</div>
-												<!-- The Modal/Lightbox -->
-
-												<div id="myModal2" class="modal">
-													<span class="close cursor" onclick="closeModal(2)">&times;</span>
-													<div class="modal-content">
-												
-														<div class="mySlides2">
-															<div class="numbertext">1 / 4</div>
-															<img src="images/Achitect/BAB_1 - Photo1-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides2">
-															<div class="numbertext">2 / 4</div>
-															<img src="images/Achitect/BAB_2 - Photo1-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides2">
-															<div class="numbertext">3 / 4</div>
-															<img src="images/Achitect/BAB_3 - Photo1-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides2">
-															<div class="numbertext">4 / 4</div>
-															<img src="images/Achitect/BAB_4 - Photo1-min.jpg" style="width:100%">
-														</div>
-													
-														<!-- Next/previous controls -->
-														<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-														<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-													
-														<!-- Caption text -->
-														<div class="caption-container">
-															<p id="caption">Vhiyasi Architect</p>
-														</div>
-													</div>
+												<div class="slide">
+													<img src="images/Achitect/BASIL_38 - Photo-min.jpg" alt="Image 5" onclick="openModal(3)" class="hover-shadow">
 												</div>
 												
 											</div>
-										</div>
-									</div>
-									<div class="iso-box 3D_model  col-md-6">
-										<div class="portfolio-thumb">
-											<div class="flexslider">
-												<div id="slider3" class="slideshow">
-													<div class="slide">
-														  <img src="images/Achitect/BASIL_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(3)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/BASIL_3 - Photo-min.jpg" alt="Image 2" onclick="openModal(3)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/BASIL_10 - Photo-min.jpg" alt="Image 3" onclick="openModal(3)" class="hover-shadow">
-													
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/BASIL_36 - Photo-min.jpg" alt="Image 4" onclick="openModal(3)" class="hover-shadow">
-														
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/BASIL_38 - Photo-min.jpg" alt="Image 5" onclick="openModal(3)" class="hover-shadow">
-													</div>
-													
-												</div>
-												<!-- The Modal/Lightbox -->
+											<!-- The Modal/Lightbox -->
 
-												<div id="myModal3" class="modal">
-													<span class="close cursor" onclick="closeModal(3)">&times;</span>
-													<div class="modal-content">
+											<div id="myModal3" class="modal">
+												<span class="close cursor" onclick="closeModal(3)">&times;</span>
+												<div class="modal-content">
+											
+													<div class="mySlides3">
+														<div class="numbertext">1 / 4</div>
+														<img src="images/Achitect/BASIL_1 - Photo-min.jpg" style="width:100%">
+													</div>
 												
-														<div class="mySlides3">
-															<div class="numbertext">1 / 4</div>
-															<img src="images/Achitect/BASIL_1 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides3">
-															<div class="numbertext">2 / 4</div>
-															<img src="images/Achitect/BASIL_3 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides3">
-															<div class="numbertext">3 / 4</div>
-															<img src="images/Achitect/BASIL_10 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides3">
-															<div class="numbertext">4 / 4</div>
-															<img src="images/Achitect/BASIL_36 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<!-- Next/previous controls -->
-														<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-														<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-													
-														<!-- Caption text -->
-														<div class="caption-container">
-															<p id="caption">Vhiyasi Architect</p>
-														</div>
+													<div class="mySlides3">
+														<div class="numbertext">2 / 4</div>
+														<img src="images/Achitect/BASIL_3 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides3">
+														<div class="numbertext">3 / 4</div>
+														<img src="images/Achitect/BASIL_10 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides3">
+														<div class="numbertext">4 / 4</div>
+														<img src="images/Achitect/BASIL_36 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<!-- Next/previous controls -->
+													<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+													<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+												
+													<!-- Caption text -->
+													<div class="caption-container">
+														<p id="caption">Vhiyasi Architect</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="iso-box 3D_model  col-md-6">
-										<div class="portfolio-thumb">
-											<div class="flexslider">
-												<div id="slider4" class="slideshow">
-													<div class="slide">
-														  <img src="images/Achitect/BQK fin_13 - Photo-min.jpg" alt="Image 1" onclick="openModal(4)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/BQK fin_14 - Photo-min.jpg" alt="Image 2" onclick="openModal(4)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/BQK fin_15 - Photo-min.jpg" alt="Image 3" onclick="openModal(4)" class="hover-shadow">
-													
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/BQK fin_16 - Photo-min.jpg" alt="Image 4" onclick="openModal(4)" class="hover-shadow">
-														
-													</div>
+								</div>
+								<div class="iso-box 3D_model  col-md-6 smoothScroll">
+									<div class="portfolio-thumb">
+										<div class="flexslider">
+											<div id="slider4" class="slideshow">
+												<div class="slide">
+													  <img src="images/Achitect/BQK fin_13 - Photo-min.jpg" alt="Image 1" onclick="openModal(4)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/BQK fin_14 - Photo-min.jpg" alt="Image 2" onclick="openModal(4)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/BQK fin_15 - Photo-min.jpg" alt="Image 3" onclick="openModal(4)" class="hover-shadow">
+												
+												</div>
+												<div class="slide">
+													<img src="images/Achitect/BQK fin_16 - Photo-min.jpg" alt="Image 4" onclick="openModal(4)" class="hover-shadow">
 													
 												</div>
-												<!-- The Modal/Lightbox -->
-
-												<div id="myModal4" class="modal">
-													<span class="close cursor" onclick="closeModal(4)">&times;</span>
-													<div class="modal-content">
 												
-														<div class="mySlides4">
-															<div class="numbertext">1 / 4</div>
-															<img src="images/Achitect/BQK fin_13 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides4">
-															<div class="numbertext">2 / 4</div>
-															<img src="images/Achitect/BQK fin_14 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides4">
-															<div class="numbertext">3 / 4</div>
-															<img src="images/Achitect/BQK fin_15 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides4">
-															<div class="numbertext">4 / 4</div>
-															<img src="images/Achitect/BQK fin_16 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<!-- Next/previous controls -->
-														<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-														<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-													
-														<!-- Caption text -->
-														<div class="caption-container">
-															<p id="caption">Vhiyasi Architect</p>
-														</div>
+											</div>
+											<!-- The Modal/Lightbox -->
+
+											<div id="myModal4" class="modal">
+												<span class="close cursor" onclick="closeModal(4)">&times;</span>
+												<div class="modal-content">
+											
+													<div class="mySlides4">
+														<div class="numbertext">1 / 4</div>
+														<img src="images/Achitect/BQK fin_13 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides4">
+														<div class="numbertext">2 / 4</div>
+														<img src="images/Achitect/BQK fin_14 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides4">
+														<div class="numbertext">3 / 4</div>
+														<img src="images/Achitect/BQK fin_15 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides4">
+														<div class="numbertext">4 / 4</div>
+														<img src="images/Achitect/BQK fin_16 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<!-- Next/previous controls -->
+													<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+													<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+												
+													<!-- Caption text -->
+													<div class="caption-container">
+														<p id="caption">Vhiyasi Architect</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="iso-box 3D_model  col-md-6">
-										<div class="portfolio-thumb">
-											<div class="flexslider">
-												<div id="slider5" class="slideshow">
-													<div class="slide">
-														  <img src="images/Achitect/CHRIS_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(5)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/CHRIS_2 - Photo-min.jpg" alt="Image 2" onclick="openModal(5)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/CHRIS_4 - Photo-min.jpg" alt="Image 3" onclick="openModal(5)" class="hover-shadow">
-													
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/CHRIS_5 - Photo-min.jpg" alt="Image 4" onclick="openModal(5)" class="hover-shadow">
-														
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/CHRIS_10 - Photo-min.jpg" alt="Image 5" onclick="openModal(5)" class="hover-shadow">
-													</div>
+								</div>
+								<div class="iso-box 3D_model  col-md-6 smoothScroll">
+									<div class="portfolio-thumb">
+										<div class="flexslider">
+											<div id="slider5" class="slideshow">
+												<div class="slide">
+													  <img src="images/Achitect/CHRIS_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(5)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/CHRIS_2 - Photo-min.jpg" alt="Image 2" onclick="openModal(5)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/CHRIS_4 - Photo-min.jpg" alt="Image 3" onclick="openModal(5)" class="hover-shadow">
+												
+												</div>
+												<div class="slide">
+													<img src="images/Achitect/CHRIS_5 - Photo-min.jpg" alt="Image 4" onclick="openModal(5)" class="hover-shadow">
 													
 												</div>
-												<!-- The Modal/Lightbox -->
-
-												<div id="myModal5" class="modal">
-													<span class="close cursor" onclick="closeModal(5)">&times;</span>
-													<div class="modal-content">
+												<div class="slide">
+													<img src="images/Achitect/CHRIS_10 - Photo-min.jpg" alt="Image 5" onclick="openModal(5)" class="hover-shadow">
+												</div>
 												
-														<div class="mySlides5">
-															<div class="numbertext">1 / 4</div>
-															<img src="images/Achitect/CHRIS_1 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides5">
-															<div class="numbertext">2 / 4</div>
-															<img src="images/Achitect/CHRIS_2 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides5">
-															<div class="numbertext">3 / 4</div>
-															<img src="images/Achitect/CHRIS_4 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides5">
-															<div class="numbertext">4 / 4</div>
-															<img src="images/Achitect/CHRIS_5 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<!-- Next/previous controls -->
-														<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-														<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-													
-														<!-- Caption text -->
-														<div class="caption-container">
-															<p id="caption">Vhiyasi Architect</p>
-														</div>
+											</div>
+											<!-- The Modal/Lightbox -->
+
+											<div id="myModal5" class="modal">
+												<span class="close cursor" onclick="closeModal(5)">&times;</span>
+												<div class="modal-content">
+											
+													<div class="mySlides5">
+														<div class="numbertext">1 / 4</div>
+														<img src="images/Achitect/CHRIS_1 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides5">
+														<div class="numbertext">2 / 4</div>
+														<img src="images/Achitect/CHRIS_2 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides5">
+														<div class="numbertext">3 / 4</div>
+														<img src="images/Achitect/CHRIS_4 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides5">
+														<div class="numbertext">4 / 4</div>
+														<img src="images/Achitect/CHRIS_5 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<!-- Next/previous controls -->
+													<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+													<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+												
+													<!-- Caption text -->
+													<div class="caption-container">
+														<p id="caption">Vhiyasi Architect</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="iso-box 3D_model  col-md-6">
-										<div class="portfolio-thumb">
-											<div class="flexslider">
-												<div id="slider6" class="slideshow">
-													<div class="slide">
-														  <img src="images/Achitect/DER_1 - Photo COMPLETE-min.jpg" alt="Image 1" onclick="openModal(6)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/DER_2 - Photo COMPLETE-min.jpg" alt="Image 2" onclick="openModal(6)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/DER_3 - Photo COMPLETE-min.jpg" alt="Image 3" onclick="openModal(6)" class="hover-shadow">
-													
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/DER_4 - Photo COMPLETE-min.jpg" alt="Image 4" onclick="openModal(6)" class="hover-shadow">
-														
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/DER_5 - Photo COMPLETE-min.jpg" alt="Image 5" onclick="openModal(6)" class="hover-shadow">
-													</div>
+								</div>
+								<div class="iso-box 3D_model  col-md-6 smoothScroll">
+									<div class="portfolio-thumb">
+										<div class="flexslider">
+											<div id="slider6" class="slideshow">
+												<div class="slide">
+													  <img src="images/Achitect/DER_1 - Photo COMPLETE-min.jpg" alt="Image 1" onclick="openModal(6)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/DER_2 - Photo COMPLETE-min.jpg" alt="Image 2" onclick="openModal(6)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/DER_3 - Photo COMPLETE-min.jpg" alt="Image 3" onclick="openModal(6)" class="hover-shadow">
+												
+												</div>
+												<div class="slide">
+													<img src="images/Achitect/DER_4 - Photo COMPLETE-min.jpg" alt="Image 4" onclick="openModal(6)" class="hover-shadow">
 													
 												</div>
-												<!-- The Modal/Lightbox -->
-
-												<div id="myModal6" class="modal">
-													<span class="close cursor" onclick="closeModal(6)">&times;</span>
-													<div class="modal-content">
+												<div class="slide">
+													<img src="images/Achitect/DER_5 - Photo COMPLETE-min.jpg" alt="Image 5" onclick="openModal(6)" class="hover-shadow">
+												</div>
 												
-														<div class="mySlides6">
-															<div class="numbertext">1 / 4</div>
-															<img src="images/Achitect/DER_1 - Photo COMPLETE-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides6">
-															<div class="numbertext">2 / 4</div>
-															<img src="images/Achitect/DER_2 - Photo COMPLETE-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides6">
-															<div class="numbertext">3 / 4</div>
-															<img src="images/Achitect/DER_3 - Photo COMPLETE-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides6">
-															<div class="numbertext">4 / 4</div>
-															<img src="images/Achitect/DER_4 - Photo COMPLETE-min.jpg" style="width:100%">
-														</div>
-													
-														<!-- Next/previous controls -->
-														<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-														<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-													
-														<!-- Caption text -->
-														<div class="caption-container">
-															<p id="caption">Vhiyasi Architect</p>
-														</div>
+											</div>
+											<!-- The Modal/Lightbox -->
+
+											<div id="myModal6" class="modal">
+												<span class="close cursor" onclick="closeModal(6)">&times;</span>
+												<div class="modal-content">
+											
+													<div class="mySlides6">
+														<div class="numbertext">1 / 4</div>
+														<img src="images/Achitect/DER_1 - Photo COMPLETE-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides6">
+														<div class="numbertext">2 / 4</div>
+														<img src="images/Achitect/DER_2 - Photo COMPLETE-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides6">
+														<div class="numbertext">3 / 4</div>
+														<img src="images/Achitect/DER_3 - Photo COMPLETE-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides6">
+														<div class="numbertext">4 / 4</div>
+														<img src="images/Achitect/DER_4 - Photo COMPLETE-min.jpg" style="width:100%">
+													</div>
+												
+													<!-- Next/previous controls -->
+													<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+													<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+												
+													<!-- Caption text -->
+													<div class="caption-container">
+														<p id="caption">Vhiyasi Architect</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="iso-box 3D_model  col-md-6">
-										<div class="portfolio-thumb">
-											<div class="flexslider">
-												<div id="slider7" class="slideshow">
-													<div class="slide">
-														  <img src="images/Achitect/frt_1 - Photo final-min.jpg" alt="Image 1" onclick="openModal(7)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/frt_3 - Photo final-min.jpg" alt="Image 2" onclick="openModal(7)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/frt_4 - Photo final-min.jpg" alt="Image 3" onclick="openModal(7)" class="hover-shadow">
-													
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/frt_5 - Photo final-min.jpg" alt="Image 4" onclick="openModal(7)" class="hover-shadow">
-														
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/frt_6 - Photo final-min.jpg" alt="Image 5" onclick="openModal(7)" class="hover-shadow">
-													</div>
+								</div>
+								<div class="iso-box 3D_model  col-md-6 smoothScroll">
+									<div class="portfolio-thumb">
+										<div class="flexslider">
+											<div id="slider7" class="slideshow">
+												<div class="slide">
+													  <img src="images/Achitect/frt_1 - Photo final-min.jpg" alt="Image 1" onclick="openModal(7)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/frt_3 - Photo final-min.jpg" alt="Image 2" onclick="openModal(7)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/frt_4 - Photo final-min.jpg" alt="Image 3" onclick="openModal(7)" class="hover-shadow">
+												
+												</div>
+												<div class="slide">
+													<img src="images/Achitect/frt_5 - Photo final-min.jpg" alt="Image 4" onclick="openModal(7)" class="hover-shadow">
 													
 												</div>
-												<!-- The Modal/Lightbox -->
-
-												<div id="myModal7" class="modal">
-													<span class="close cursor" onclick="closeModal(7)">&times;</span>
-													<div class="modal-content">
+												<div class="slide">
+													<img src="images/Achitect/frt_6 - Photo final-min.jpg" alt="Image 5" onclick="openModal(7)" class="hover-shadow">
+												</div>
 												
-														<div class="mySlides7">
-															<div class="numbertext">1 / 4</div>
-															<img src="images/Achitect/frt_1 - Photo final-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides7">
-															<div class="numbertext">2 / 4</div>
-															<img src="images/Achitect/frt_3 - Photo final-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides7">
-															<div class="numbertext">3 / 4</div>
-															<img src="images/Achitect/frt_4 - Photo final-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides7">
-															<div class="numbertext">4 / 4</div>
-															<img src="images/Achitect/frt_5 - Photo final-min.jpg" style="width:100%">
-														</div>
-													
-														<!-- Next/previous controls -->
-														<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-														<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-													
-														<!-- Caption text -->
-														<div class="caption-container">
-															<p id="caption">Vhiyasi Architect</p>
-														</div>
+											</div>
+											<!-- The Modal/Lightbox -->
+
+											<div id="myModal7" class="modal">
+												<span class="close cursor" onclick="closeModal(7)">&times;</span>
+												<div class="modal-content">
+											
+													<div class="mySlides7">
+														<div class="numbertext">1 / 4</div>
+														<img src="images/Achitect/frt_1 - Photo final-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides7">
+														<div class="numbertext">2 / 4</div>
+														<img src="images/Achitect/frt_3 - Photo final-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides7">
+														<div class="numbertext">3 / 4</div>
+														<img src="images/Achitect/frt_4 - Photo final-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides7">
+														<div class="numbertext">4 / 4</div>
+														<img src="images/Achitect/frt_5 - Photo final-min.jpg" style="width:100%">
+													</div>
+												
+													<!-- Next/previous controls -->
+													<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+													<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+												
+													<!-- Caption text -->
+													<div class="caption-container">
+														<p id="caption">Vhiyasi Architect</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="iso-box 3D_model  col-md-6">
-										<div class="portfolio-thumb">
-											<div class="flexslider">
-												<div id="slider8" class="slideshow">
-													<div class="slide">
-														  <img src="images/Achitect/KWA_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(8)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/KWA_2 - Photo-min.jpg" alt="Image 2" onclick="openModal(8)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/KWA_3 - Photo-min.jpg" alt="Image 3" onclick="openModal(8)" class="hover-shadow">
-													
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/KWA_4 - Photo-min.jpg" alt="Image 4" onclick="openModal(8)" class="hover-shadow">
-														
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/KWA_6 - Photo-min.jpg" alt="Image 5" onclick="openModal(8)" class="hover-shadow">
-													</div>
+								</div>
+								<div class="iso-box 3D_model  col-md-6 smoothScroll">
+									<div class="portfolio-thumb">
+										<div class="flexslider">
+											<div id="slider8" class="slideshow">
+												<div class="slide">
+													  <img src="images/Achitect/KWA_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(8)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/KWA_2 - Photo-min.jpg" alt="Image 2" onclick="openModal(8)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/KWA_3 - Photo-min.jpg" alt="Image 3" onclick="openModal(8)" class="hover-shadow">
+												
+												</div>
+												<div class="slide">
+													<img src="images/Achitect/KWA_4 - Photo-min.jpg" alt="Image 4" onclick="openModal(8)" class="hover-shadow">
 													
 												</div>
-												<!-- The Modal/Lightbox -->
-
-												<div id="myModal8" class="modal">
-													<span class="close cursor" onclick="closeModal(8)">&times;</span>
-													<div class="modal-content">
+												<div class="slide">
+													<img src="images/Achitect/KWA_6 - Photo-min.jpg" alt="Image 5" onclick="openModal(8)" class="hover-shadow">
+												</div>
 												
-														<div class="mySlides8">
-															<div class="numbertext">1 / 4</div>
-															<img src="images/Achitect/KWA_1 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides8">
-															<div class="numbertext">2 / 4</div>
-															<img src="images/Achitect/KWA_2 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides8">
-															<div class="numbertext">3 / 4</div>
-															<img src="images/Achitect/KWA_3 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides8">
-															<div class="numbertext">4 / 4</div>
-															<img src="images/Achitect/KWA_4 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<!-- Next/previous controls -->
-														<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-														<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-													
-														<!-- Caption text -->
-														<div class="caption-container">
-															<p id="caption">Vhiyasi Architect</p>
-														</div>
+											</div>
+											<!-- The Modal/Lightbox -->
+
+											<div id="myModal8" class="modal">
+												<span class="close cursor" onclick="closeModal(8)">&times;</span>
+												<div class="modal-content">
+											
+													<div class="mySlides8">
+														<div class="numbertext">1 / 4</div>
+														<img src="images/Achitect/KWA_1 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides8">
+														<div class="numbertext">2 / 4</div>
+														<img src="images/Achitect/KWA_2 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides8">
+														<div class="numbertext">3 / 4</div>
+														<img src="images/Achitect/KWA_3 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides8">
+														<div class="numbertext">4 / 4</div>
+														<img src="images/Achitect/KWA_4 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<!-- Next/previous controls -->
+													<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+													<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+												
+													<!-- Caption text -->
+													<div class="caption-container">
+														<p id="caption">Vhiyasi Architect</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="iso-box 3D_model  col-md-6">
-										<div class="portfolio-thumb">
-											<div class="flexslider">
-												<div id="slider9" class="slideshow">
-													<div class="slide">
-														  <img src="images/Achitect/WATERFALLpic_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(9)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/WATERFALLpic_3 - Photo-min.jpg" alt="Image 2" onclick="openModal(9)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/WATERFALLpic_4 - Photo-min.jpg" alt="Image 3" onclick="openModal(9)" class="hover-shadow">
-													
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/WATERFALLpic_6 - Photo-min.jpg" alt="Image 4" onclick="openModal(9)" class="hover-shadow">
-														
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/WATERFALLpic_7 - Photo-min.jpg" alt="Image 5" onclick="openModal(9)" class="hover-shadow">
-													</div>
+								</div>
+								<div class="iso-box 3D_model  col-md-6 smoothScroll">
+									<div class="portfolio-thumb">
+										<div class="flexslider">
+											<div id="slider9" class="slideshow">
+												<div class="slide">
+													  <img src="images/Achitect/WATERFALLpic_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(9)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/WATERFALLpic_3 - Photo-min.jpg" alt="Image 2" onclick="openModal(9)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/WATERFALLpic_4 - Photo-min.jpg" alt="Image 3" onclick="openModal(9)" class="hover-shadow">
+												
+												</div>
+												<div class="slide">
+													<img src="images/Achitect/WATERFALLpic_6 - Photo-min.jpg" alt="Image 4" onclick="openModal(9)" class="hover-shadow">
 													
 												</div>
-												<!-- The Modal/Lightbox -->
-
-												<div id="myModal9" class="modal">
-													<span class="close cursor" onclick="closeModal(9)">&times;</span>
-													<div class="modal-content">
+												<div class="slide">
+													<img src="images/Achitect/WATERFALLpic_7 - Photo-min.jpg" alt="Image 5" onclick="openModal(9)" class="hover-shadow">
+												</div>
 												
-														<div class="mySlides9">
-															<div class="numbertext">1 / 4</div>
-															<img src="images/Achitect/WATERFALLpic_1 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides9">
-															<div class="numbertext">2 / 4</div>
-															<img src="images/Achitect/WATERFALLpic_3 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides9">
-															<div class="numbertext">3 / 4</div>
-															<img src="images/Achitect/WATERFALLpic_4 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides9">
-															<div class="numbertext">4 / 4</div>
-															<img src="images/Achitect/WATERFALLpic_6 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<!-- Next/previous controls -->
-														<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-														<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-													
-														<!-- Caption text -->
-														<div class="caption-container">
-															<p id="caption">Vhiyasi Architect</p>
-														</div>
+											</div>
+											<!-- The Modal/Lightbox -->
+
+											<div id="myModal9" class="modal">
+												<span class="close cursor" onclick="closeModal(9)">&times;</span>
+												<div class="modal-content">
+											
+													<div class="mySlides9">
+														<div class="numbertext">1 / 4</div>
+														<img src="images/Achitect/WATERFALLpic_1 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides9">
+														<div class="numbertext">2 / 4</div>
+														<img src="images/Achitect/WATERFALLpic_3 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides9">
+														<div class="numbertext">3 / 4</div>
+														<img src="images/Achitect/WATERFALLpic_4 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides9">
+														<div class="numbertext">4 / 4</div>
+														<img src="images/Achitect/WATERFALLpic_6 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<!-- Next/previous controls -->
+													<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+													<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+												
+													<!-- Caption text -->
+													<div class="caption-container">
+														<p id="caption">Vhiyasi Architect</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="iso-box 3D_model  col-md-6">
-										<div class="portfolio-thumb">
-											<div class="flexslider">
-												<div id="slider10" class="slideshow">
-													<div class="slide">
-														  <img src="images/Achitect/NM_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(10)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/NM_2 - Photo-min.jpg" alt="Image 2" onclick="openModal(10)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/NM_3 - Photo-min.jpg" alt="Image 3" onclick="openModal(10)" class="hover-shadow">
-													
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/NM_4 - Photo-min.jpg" alt="Image 4" onclick="openModal(10)" class="hover-shadow">
-														
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/NM_5 - Photo-min.jpg" alt="Image 5" onclick="openModal(10)" class="hover-shadow">
-													</div>
+								</div>
+								<div class="iso-box 3D_model  col-md-6 smoothScroll">
+									<div class="portfolio-thumb">
+										<div class="flexslider">
+											<div id="slider10" class="slideshow">
+												<div class="slide">
+													  <img src="images/Achitect/NM_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(10)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/NM_2 - Photo-min.jpg" alt="Image 2" onclick="openModal(10)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/NM_3 - Photo-min.jpg" alt="Image 3" onclick="openModal(10)" class="hover-shadow">
+												
+												</div>
+												<div class="slide">
+													<img src="images/Achitect/NM_4 - Photo-min.jpg" alt="Image 4" onclick="openModal(10)" class="hover-shadow">
 													
 												</div>
-												<!-- The Modal/Lightbox -->
-
-												<div id="myModal10" class="modal">
-													<span class="close cursor" onclick="closeModal(10)">&times;</span>
-													<div class="modal-content">
+												<div class="slide">
+													<img src="images/Achitect/NM_5 - Photo-min.jpg" alt="Image 5" onclick="openModal(10)" class="hover-shadow">
+												</div>
 												
-														<div class="mySlides10">
-															<div class="numbertext">1 / 4</div>
-															<img src="images/Achitect/NM_1 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides10">
-															<div class="numbertext">2 / 4</div>
-															<img src="images/Achitect/NM_2 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides10">
-															<div class="numbertext">3 / 4</div>
-															<img src="images/Achitect/NM_3 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides10">
-															<div class="numbertext">4 / 4</div>
-															<img src="images/Achitect/NM_4 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<!-- Next/previous controls -->
-														<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-														<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-													
-														<!-- Caption text -->
-														<div class="caption-container">
-															<p id="caption">Vhiyasi Architect</p>
-														</div>
+											</div>
+											<!-- The Modal/Lightbox -->
+
+											<div id="myModal10" class="modal">
+												<span class="close cursor" onclick="closeModal(10)">&times;</span>
+												<div class="modal-content">
+											
+													<div class="mySlides10">
+														<div class="numbertext">1 / 4</div>
+														<img src="images/Achitect/NM_1 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides10">
+														<div class="numbertext">2 / 4</div>
+														<img src="images/Achitect/NM_2 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides10">
+														<div class="numbertext">3 / 4</div>
+														<img src="images/Achitect/NM_3 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides10">
+														<div class="numbertext">4 / 4</div>
+														<img src="images/Achitect/NM_4 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<!-- Next/previous controls -->
+													<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+													<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+												
+													<!-- Caption text -->
+													<div class="caption-container">
+														<p id="caption">Vhiyasi Architect</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="iso-box 3D_model  col-md-6">
-										<div class="portfolio-thumb">
-											<div class="flexslider">
-												<div id="slider11" class="slideshow">
-													<div class="slide">
-														  <img src="images/Achitect/TM1_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(11)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/TM1_2 - Photo-min.jpg" alt="Image 2" onclick="openModal(11)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/TM1_3 - Photo-min.jpg" alt="Image 3" onclick="openModal(11)" class="hover-shadow">
-													
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/TM1_4 - Photo-min.jpg" alt="Image 4" onclick="openModal(11)" class="hover-shadow">
-														
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/TM1_5 - Photo-min.jpg" alt="Image 5" onclick="openModal(11)" class="hover-shadow">
-													</div>
+								</div>
+								<div class="iso-box 3D_model  col-md-6 smoothScroll">
+									<div class="portfolio-thumb">
+										<div class="flexslider">
+											<div id="slider11" class="slideshow">
+												<div class="slide">
+													  <img src="images/Achitect/TM1_1 - Photo-min.jpg" alt="Image 1" onclick="openModal(11)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/TM1_2 - Photo-min.jpg" alt="Image 2" onclick="openModal(11)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/TM1_3 - Photo-min.jpg" alt="Image 3" onclick="openModal(11)" class="hover-shadow">
+												
+												</div>
+												<div class="slide">
+													<img src="images/Achitect/TM1_4 - Photo-min.jpg" alt="Image 4" onclick="openModal(11)" class="hover-shadow">
 													
 												</div>
-												<!-- The Modal/Lightbox -->
-
-												<div id="myModal11" class="modal">
-													<span class="close cursor" onclick="closeModal(11)">&times;</span>
-													<div class="modal-content">
+												<div class="slide">
+													<img src="images/Achitect/TM1_5 - Photo-min.jpg" alt="Image 5" onclick="openModal(11)" class="hover-shadow">
+												</div>
 												
-														<div class="mySlides11">
-															<div class="numbertext">1 / 4</div>
-															<img src="images/Achitect/TM1_1 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides11">
-															<div class="numbertext">2 / 4</div>
-															<img src="images/Achitect/TM1_2 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides11">
-															<div class="numbertext">3 / 4</div>
-															<img src="images/Achitect/TM1_3 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides11">
-															<div class="numbertext">4 / 4</div>
-															<img src="images/Achitect/TM1_4 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<!-- Next/previous controls -->
-														<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-														<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-													
-														<!-- Caption text -->
-														<div class="caption-container">
-															<p id="caption">Vhiyasi Architect</p>
-														</div>
+											</div>
+											<!-- The Modal/Lightbox -->
+
+											<div id="myModal11" class="modal">
+												<span class="close cursor" onclick="closeModal(11)">&times;</span>
+												<div class="modal-content">
+											
+													<div class="mySlides11">
+														<div class="numbertext">1 / 4</div>
+														<img src="images/Achitect/TM1_1 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides11">
+														<div class="numbertext">2 / 4</div>
+														<img src="images/Achitect/TM1_2 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides11">
+														<div class="numbertext">3 / 4</div>
+														<img src="images/Achitect/TM1_3 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides11">
+														<div class="numbertext">4 / 4</div>
+														<img src="images/Achitect/TM1_4 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<!-- Next/previous controls -->
+													<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+													<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+												
+													<!-- Caption text -->
+													<div class="caption-container">
+														<p id="caption">Vhiyasi Architect</p>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="iso-box 3D_model  col-md-6">
-										<div class="portfolio-thumb">
-											<div class="flexslider">
-												<div id="slider12" class="slideshow">
-													<div class="slide">
-														  <img src="images/Achitect/NN_1 - Photo FINAL-min.jpg" alt="Image 1" onclick="openModal(12)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/NN_2 - Photo FINAL-min.jpg" alt="Image 2" onclick="openModal(12)" class="hover-shadow">
-														  
-													</div>
-													<div class="slide">
-														  <img src="images/Achitect/NN_3 - Photo FINAL-min.jpg" alt="Image 3" onclick="openModal(12)" class="hover-shadow">
-													
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/NN_5 - Photo FINAL-min.jpg" alt="Image 4" onclick="openModal(12)" class="hover-shadow">
-														
-													</div>
-													<div class="slide">
-														<img src="images/Achitect/NN_8 - Photo FINAL-min.jpg" alt="Image 5" onclick="openModal(12)" class="hover-shadow">
-													</div>
+								</div>
+								<div class="iso-box 3D_model  col-md-6 smoothScroll">
+									<div class="portfolio-thumb">
+										<div class="flexslider">
+											<div id="slider12" class="slideshow">
+												<div class="slide">
+													  <img src="images/Achitect/NN_1 - Photo FINAL-min.jpg" alt="Image 1" onclick="openModal(12)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/NN_2 - Photo FINAL-min.jpg" alt="Image 2" onclick="openModal(12)" class="hover-shadow">
+													  
+												</div>
+												<div class="slide">
+													  <img src="images/Achitect/NN_3 - Photo FINAL-min.jpg" alt="Image 3" onclick="openModal(12)" class="hover-shadow">
+												
+												</div>
+												<div class="slide">
+													<img src="images/Achitect/NN_5 - Photo FINAL-min.jpg" alt="Image 4" onclick="openModal(12)" class="hover-shadow">
 													
 												</div>
-												<!-- The Modal/Lightbox -->
-
-												<div id="myModal12" class="modal">
-													<span class="close cursor" onclick="closeModal(12)">&times;</span>
-													<div class="modal-content">
+												<div class="slide">
+													<img src="images/Achitect/NN_8 - Photo FINAL-min.jpg" alt="Image 5" onclick="openModal(12)" class="hover-shadow">
+												</div>
 												
-														<div class="mySlides12">
-															<div class="numbertext">1 / 4</div>
-															<img src="images/Achitect/NN_1 - Photo FINAL-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides12">
-															<div class="numbertext">2 / 4</div>
-															<img src="images/Achitect/NN_2 - Photo FINAL-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides12">
-															<div class="numbertext">3 / 4</div>
-															<img src="images/Achitect/NN_5 - Photo FINAL-min.jpg" style="width:100%">
-														</div>
-													
-														<div class="mySlides12">
-															<div class="numbertext">4 / 4</div>
-															<img src="images/Achitect/NM_8 - Photo-min.jpg" style="width:100%">
-														</div>
-													
-														<!-- Next/previous controls -->
-														<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-														<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-													
-														<!-- Caption text -->
-														<div class="caption-container">
-															<p id="caption">Vhiyasi Architect</p>
-														</div>
+											</div>
+											<!-- The Modal/Lightbox -->
+
+											<div id="myModal12" class="modal">
+												<span class="close cursor" onclick="closeModal(12)">&times;</span>
+												<div class="modal-content">
+											
+													<div class="mySlides12">
+														<div class="numbertext">1 / 4</div>
+														<img src="images/Achitect/NN_1 - Photo FINAL-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides12">
+														<div class="numbertext">2 / 4</div>
+														<img src="images/Achitect/NN_2 - Photo FINAL-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides12">
+														<div class="numbertext">3 / 4</div>
+														<img src="images/Achitect/NN_5 - Photo FINAL-min.jpg" style="width:100%">
+													</div>
+												
+													<div class="mySlides12">
+														<div class="numbertext">4 / 4</div>
+														<img src="images/Achitect/NM_8 - Photo-min.jpg" style="width:100%">
+													</div>
+												
+													<!-- Next/previous controls -->
+													<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+													<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+												
+													<!-- Caption text -->
+													<div class="caption-container">
+														<p id="caption">Vhiyasi Architect</p>
 													</div>
 												</div>
 											</div>
 										</div>
-									</div>	
-								</div>						
+									</div>
+								</div>
+														
 							</div>
 						</div>
 					</div>	
@@ -1200,7 +1183,7 @@
 
 	<!-- start divider -->
 	<section class="divider overlay">
-		<div class="container smoothScroll">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-12 wow bounceIn">
 					<h2>Testimonial</h2>
@@ -1252,7 +1235,7 @@
 
 	<!-- start contact -->
 	<section id="contact">
-		<div class="container smoothScroll">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="wow bounceIn">
